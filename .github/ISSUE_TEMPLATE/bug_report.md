@@ -1,38 +1,79 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
-
+about: Report a technical issue with the HPD Builder API
+title: '[BUG]: '
+labels: 'bug'
 ---
 
-**Describe the bug**
+## Bug Summary
+
 A clear and concise description of what the bug is.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
+## API Endpoint Affected
+
+**Endpoint:** [e.g. POST /api/2.3/{endpoint}]
+**Method:** [e.g. POST, GET, PUT, DELETE]
+
+## Expected Behavior
+
+A clear description of what you expected to happen.
+
+## Actual Behavior
+
+A clear description of what actually happened instead.
+
+## Steps to Reproduce
+
+Provide detailed steps to reproduce the issue:
+
+1. Make API call to '...'
+2. With parameters '...'
+3. Receive response '...'
 4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Request Example
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+Please provide your API request (sanitize any sensitive data):
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+```json
+{
+  "example": "request body"
+}
+```
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Request Headers:**
 
-**Additional context**
-Add any other context about the problem here.
+```
+Content-Type: application/json
+Authorization: Bearer [REDACTED]
+```
+
+## Response Received
+
+Please provide the actual response you received:
+
+```json
+{
+  "error": "example error response"
+}
+```
+
+**Response Status Code:** [e.g. 400, 500, 404]
+
+## Environment Information
+
+- **Environment:** [Production/Staging]
+- **Timestamp:** [When did this occur? e.g. 2024-01-01 12:00:00 UTC]
+- **Your Integration:** [Brief description of your system/platform]
+
+## Error Messages/Logs
+
+If applicable, include any error messages or relevant log entries:
+
+```
+Error logs here
+```
+
+## Additional Context
+
+Add any other context about the problem here (frequency, impact, workarounds, etc.).
