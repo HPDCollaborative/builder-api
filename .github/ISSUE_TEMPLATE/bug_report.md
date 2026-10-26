@@ -3,6 +3,7 @@ name: Bug report
 about: Report a technical issue with the HPD Builder API
 title: '[BUG]: '
 labels: 'bug'
+assignees: 'secondmanveran'
 ---
 
 ## Bug Summary
